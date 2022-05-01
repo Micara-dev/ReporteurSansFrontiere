@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+
+/* #region  Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #2f2f2f;
+    padding: 0 35px;
+    color: #fff;
+}
+
+/*Logo*/
+.bigTitle {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.subTitle {
+    font-size: 18px;
+    color: #ff0000;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.sections {
+    display: flex;
+
+    padding: 0px;
+}
+
+/*Sections Button*/
+.sections li a {
+    display: inline-block;
+    padding: 20px;
+    margin: 0%;
+    font-weight: bold;
+}
+
+.sections a:hover {
+    background-color: #ff0000;
+}
+
+.fakeAccount {
+    display: flex;
+    gap: 30px;
+
+    color: #969696;
+    font-size: 15px;
+}
+
+/* #endregion */
+
+/* #region  Hero */
+/* #endregion */
