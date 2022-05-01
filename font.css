@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Oswald";
+    src: url(Fonts/static/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Oswald";
+    font-weight: bold;
+    src: url("Fonts/static/Oswald-Bold.ttf");
+}
