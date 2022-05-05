@@ -2,6 +2,7 @@ body {
     margin: 0;
 
     font-family: "Oswald", Arial, Helvetica, sans-serif;
+    line-height: 20px;
 }
 
 /* #region  Header */
@@ -19,11 +20,13 @@ header {
 .bigTitle {
     font-weight: bold;
     font-size: 25px;
+    margin-bottom: 5px;
 }
 
 .subTitle {
     font-size: 18px;
-    color: #ff0000;
+    color: #f00;
+    /*#f56f04;*/
 }
 
 li {
@@ -46,7 +49,7 @@ li {
 }
 
 .sections a:hover {
-    background-color: #ff0000;
+    background-color: #f00;
 }
 
 .fakeAccount {
@@ -60,4 +63,69 @@ li {
 /* #endregion */
 
 /* #region  Hero */
+#SectionHero {
+    background-color: #2f2f2f;
+    padding: 50px 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+
+.text {
+    width: 25%;
+}
+
+.Hero {
+    font-size: 41px;
+    color: #e5e7eb;
+    font-weight: 900;
+    line-height: 40px;
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
+.subHero {
+    color: red;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.HeroPara {
+    font-size: 20px;
+    color: #fff;
+    margin: 0px;
+    line-height: 25px;
+}
+
+.HeroButton {
+    background-color: #3882f6;
+    border-radius: 6px;
+    border: none;
+    padding: 5px 30px;
+    margin-top: 10px;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 100%;
+}
+.img_src {
+    width: 550px;
+    height: 366px;
+
+    color: rgb(200, 200, 200);
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+}
+
 /* #endregion */
+
+/* #region  Infos */
+
+/* #endregion */
+
+
+
+
+

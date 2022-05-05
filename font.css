@@ -8,3 +8,9 @@
     font-weight: bold;
     src: url("Fonts/static/Oswald-Bold.ttf");
 }
+
+@font-face {
+    font-family: "Oswald";
+    font-weight: lighter;
+    src: url("Fonts/static/Oswald-Light.ttf");
+}
