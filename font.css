@@ -11,6 +11,12 @@
 
 @font-face {
     font-family: "Oswald";
+    font-weight: 600;
+    src: url(Fonts/static/Oswald-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Oswald";
     font-weight: lighter;
     src: url("Fonts/static/Oswald-Light.ttf");
 }

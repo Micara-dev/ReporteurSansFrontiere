@@ -5,6 +5,16 @@ body {
     line-height: 20px;
 }
 
+h2 {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 25px 0px;
+}
+
+p {
+    font-size: 20px;
+}
+
 /* #region  Header */
 header {
     display: flex;
@@ -29,8 +39,7 @@ header {
     /*#f56f04;*/
 }
 
-li {
-    list-style-type: none;
+Header li {
     text-align: center;
 }
 
@@ -96,6 +105,7 @@ li {
     font-size: 20px;
     color: #fff;
     margin: 0px;
+    margin-bottom: 25px;
     line-height: 25px;
 }
 
@@ -104,11 +114,11 @@ li {
     border-radius: 6px;
     border: none;
     padding: 5px 30px;
-    margin-top: 10px;
     color: #e5e7eb;
     font-weight: bold;
     font-size: 100%;
 }
+
 .img_src {
     width: 550px;
     height: 366px;
@@ -121,11 +131,163 @@ li {
 
 /* #endregion */
 
+/*  #region InfosAndContext */
+
+#InfosAndContext {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #bebebe;
+}
+
 /* #region  Infos */
+#Infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.infosTable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tableHeader {
+    font-weight: 600;
+    font-size: large;
+    margin-left: 4px;
+}
+
+tr {
+    border: black solid 2px;
+}
+
+table li {
+    list-style-type: disc;
+    margin-left: 25px;
+}
+
+.listHeader {
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+.src {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+}
 
 /* #endregion */
 
+/* #region Context */
+#Context {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 
+.imagesTexts {
+    display: flex;
+    gap: 25px;
+}
+
+.imageText {
+    width: 450px;
+}
+
+/* #endregion */
+/* #endregion */
+
+/* #region Source */
+
+#Source {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 50px 250px 80px 250px;
+    /*margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    margin-bottom: 80px;*/
+}
+
+.imgP {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 
+/* #endregion */
+
+/* #region implique */
+#Implique {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #969696;
+    padding-bottom: 25px;
+}
+
+#Implique .imageText {
+    width: 350px;
+}
+
+/* #endregion */
+
+/* #region consequence */
+#Consequence {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #2f2f2f;
+    color: white;
+    padding: 35px 75px;
+}
+
+#Consequence ul {
+    display: flex;
+    gap: 25px;
+}
+
+#Consequence h3 {
+    font-weight: 600;
+    font-size: medium;
+    margin-bottom: 2px;
+}
+#Consequence h4 {
+    font-size: large;
+    margin-bottom: 8px;
+}
+
+/* #endregion */
+
+/* #region footer */
+footer {
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+
+    padding: 25px 0px;
+    background-color: #0e0e0e;
+    color: white;
+}
+
+
+/* #endregion */
