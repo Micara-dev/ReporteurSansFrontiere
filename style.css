@@ -216,10 +216,9 @@ table li {
     gap: 25px;
 }
 
-.imageText {
+.imageText, .imageText img{
     width: 450px;
 }
-
 /* #endregion */
 /* #endregion */
 
@@ -249,6 +248,15 @@ table li {
     gap: 20px;
 }
 
+#Source img {
+    width: 450px;
+}
+
+#Source p  { 
+    font-size: 25px;
+    line-height: 30px;
+}
+
 
 /* #endregion */
 
@@ -261,8 +269,14 @@ table li {
     background-color: #969696;
     padding-bottom: 25px;
 }
+.sourceImagesTexts {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+}
 
-#Implique .imageText {
+#Implique .imageText, #Implique img {
     width: 350px;
 }
 
